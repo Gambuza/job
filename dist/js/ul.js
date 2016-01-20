@@ -1,14 +1,14 @@
 // Карусель
 $(document).ready(function() {
  
-  $("#owl-demo").owlCarousel({
-
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem : true,
-      autoPlay : 3000,
-      pagination : true,
-  });
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
  
 });
 // Модальное окно
