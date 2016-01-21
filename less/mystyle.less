@@ -61,9 +61,65 @@
   &.i-phone {
     background-position: 0 -450px;
   }
-
+  &.i-road{
+    background-position: 0 0;
+  }
+  &.i-boring{
+    background-position: 0 -50px;
+  }
+  &.i-drives{
+    background-position: 0 -100px;
+  }
+  &.i-crown{
+    background-position: 0 -150px;
+  }
+  &.i-gender{
+    background-position: 0 -200px;
+  }
+  &.i-finishings{
+    background-position: 0 -250px;
+  }
+  &.i-cup{
+    background-position: 0 -250px;
+  }
+  &.i-rest{
+    background-position: 0 -300px;
+  }
 }
-
+.icon-20{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: top;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  &.i-search{
+    background-position: -43px -23px;
+  }
+}
+.icon-75{
+  display: inline-block;
+  width: 75px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  vertical-align: top;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  &.i-price{
+    background-position: -50px -50px;
+  }
+  &.i-hit{
+    background-position: -50px -100px;
+  }
+  &.i-new{
+    background-position: -50px -150px;
+  }
+}
 // reset
 input {
   padding: 3px 8px;
@@ -101,6 +157,7 @@ input {
 
 .promo {
   background-color: #484848;
+  margin-bottom: 20px;
 
   ul {
     padding: 0;
@@ -141,352 +198,96 @@ input {
   }
 
 }
-
-//Контейнер
-.content {
-  margin: 0 40px;
-}
-
-.logo-body {
-  width: 20%;
-  height: 137px;
-  padding-top: 30px;
-  border: 1px solid white;
-  border-top: none;
-  background: #484848;
-}
-
-.logo-body .ico-figyra {
-  background: url(../images/sprite.png) -50px 0;
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin: 0 75px;
-}
-
-.logo-body .ico-name {
-  background: url(../images/sprite.png) -100px -50px;
-  width: 100px;
-  height: 50px;
-  display: inline-block;
-  margin: 0 58px
-}
-
-.name-firma {
-  width: 20%;
-  height: 139px;
-  background: #C2131C;
-  border: 1px solid white;
-  border-bottom: none;
-
-  h2 {
-    color: white;
-    padding: 15px;
-  }
-
-}
-
-// Слайдер
-.slaider {
-  position: relative;
-  left: 20%;
-  top: -275px;
-  width: 80%;
-}
-
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: 275px;
-}
-
-// Акции
-.offers {
-  height: 320px;
-  position: relative;
-  width: 100%;
-  top: -250px;
-  display: flex;
-}
-
-.special {
-  width: 33%;
-  height: 320px;
-  margin: 0 10px 0 0;
-  border: 1px solid #C2131C;
-
-  span {
-    background: url(../images/sprite.png) -200px 0px;
-    width: 65px;
-    height: 50px;
-    display: inline-block;
-    position: absolute;
-    top: -15px;
-  }
-
-}
-
-.special h3 {
-  padding: 10px 50px 10px 50px;
-  font-size: 20px;
-  margin: 0;
-  float: right
-}
-
-.special img {
-  margin: 0 75px;
-}
-
-.special a {
-  color: #484848;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 20px 50px;
-  display: block;
-
-  &:hover {
-    text-decoration: underline;
-    color: #C2131C;
-  }
-
-}
-
-.hit {
-  width: 33%;
-  height: 320px;
-  margin: 0 10px 0 0;
-  border: 1px solid #C2131C;
-
-  span {
-    background: url(../images/sprite.png) -200px -50px;
-    width: 65px;
-    height: 50px;
-    display: inline-block;
-    position: absolute;
-    top: -17px;
-  }
-
-}
-
-.hit h3 {
-  padding: 10px 50px 10px 50px;
-  font-size: 20px;
-  margin: 0;
-  float: right
-}
-
-.hit img {
-  margin: 0 75px;
-}
-
-.hit a {
-  color: #484848;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0px 50px;
-  display: block;
-
-  &:hover {
-    text-decoration: underline;
-    color: #C2131C;
-  }
-
-}
-
-.new-product {
-  width: 33%;
-  height: 320px;
-  border: 1px solid #C2131C;
-
-  span {
-    background: url(../images/sprite.png) -200px -100px;
-    width: 65px;
-    height: 50px;
-    display: inline-block;
-    position: absolute;
-    top: -16px;
-  }
-
-}
-
-.new-product h3 {
-  padding: 10px 50px 10px 50px;
-  font-size: 20px;
-  margin: 0;
-  float: right;
-}
-
-.new-product img {
-  margin: 0 75px;
-}
-
-.new-product a {
-  color: #484848;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0px 50px;
-  display: block;
-
-  &:hover {
-    text-decoration: underline;
-    color: #C2131C;
-  }
-
-}
-
-.company {
-  height: 400px;
-  position: relative;
-  top: -230px;
-}
-
-.about {
-  width: 47%;
-  height: 400px;
-  display: inline-block;
-  border-right: 1px solid #484848;
-
-  h4 {
-    font-size: 35px;
-    line-height: 45px;
+// слайдер
+.slider{
+  margin-bottom: 20px;
+  .col-sm-3{
     padding: 0;
-    margin: 0;
+    padding-left: 10px;
   }
-
-}
-
-.about span {
-  background: url(../images/sprite.png) -50px -150px;
-  width: 150px;
-  height: 25px;
-  display: inline-block;
-}
-
-.about p {
-}
-
-.company img {
-  position: absolute;
-  right: 0;
-  height: 400px;
-  width: 50%;
-}
-
-h5 {
-  position: relative;
-  top: -210px;
-  font-size: 25px;
-  margin: 0;
-}
-
-// Подвал
-.footer {
-  width: 1140px;
-  height: 420px;
-  background: #484848;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: -180px;
-  bottom: -180px;
-}
-
-.menu-bottom {
-  height: 420px;
-  margin: 0 20px;
-  display: flex;
-}
-
-.activities {
-  height: 390px;
-  width: 33%;
-  margin: 0 20px 0 0;
-
-  h4 {
-    color: white;
+  .col-sm-9{
+    padding: 0;
+    padding-right: 10px;
+  }
+  ul{
+    padding: 0;
+    list-style: none;
     margin: 0;
+    li.logo{
+    background-color: #484848;
+    font-family: 'izhitsacyrillic';
+    color: #C2131C;
+    font-size: 36px;
     text-align: center;
-    line-height: 65px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    line-height: 30px;
+      i.i-logo{
+        margin: 0 50px 0 40px;
+      }
+    }
+    li.slogan{
     background: #C2131C;
-    font-size: 20px;
-  }
-
-}
-
-.activities ul {
-  list-style: none;
-  padding: 0 100px;
-  font-size: 18px;
-  line-height: 30px;
-
-  li a {
     color: white;
-    text-decoration: none;
+    padding: 35px 29px 32px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    }
+  }
+}
+.owl-dots {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #e2121d;
+    border: 2px solid #e2121d;
+    float: left;
+    margin: 3px;
 
+
+    span {
+      background: white;
+      display: block;
+      height: 6px;
+      width: 6px;
+      border-radius: 50%;
+    }
+
+    &.active,
     &:hover {
-      color: #C2131C;
+      span {
+        background: #e2121d;
+      }
+
     }
 
   }
 
 }
+// Акции
+.shares{
+  .col-sm-4{
+    border: 1px solid #C2131C;
+    
+    i.i-price{
 
-.products {
-  height: 390px;
-  width: 33%;
-  margin: 0 20px 0 0;
+    }
+    strong{
 
-  h4 {
-    color: white;
-    margin: 0;
-    text-align: center;
-    line-height: 65px;
-    background: #C2131C;
-    font-size: 20px;
+    }
+    img{
+
+    }
+    a{
+
+    }
   }
-
 }
-
-.products ul {
-  list-style: none;
-  margin: 0;
-  font-size: 18px;
-  line-height: 30px;
-  padding: 10px 0;
-
-  li:hover {
-    background: #C2131C;
-  }
-
-}
-
-.products   li a {
-  color: white;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-}
-
-.fool {
-  position: absolute;
-  width: 100%;
-  top: 390px;
-  height: 30px;
-  background: #C2131C;
-
-  p {
-    float: right;
-    margin: 0;
-    padding: 5px;
-    color: white;
-  }
-
-}
-
 // Модальное окно
 #mask {
   position: absolute;
@@ -818,33 +619,4 @@ h5 {
 .owl-carousel .owl-video-frame {
   position: relative;
   z-index: 1;
-}
-
-.owl-dots {
-  .owl-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #e2121d;
-    border: 2px solid #e2121d;
-    float: left;
-
-    span {
-      background: white;
-      display: block;
-      height: 6px;
-      width: 6px;
-      border-radius: 50%;
-    }
-
-    &.active,
-    &:hover {
-      span {
-        background: #e2121d;
-      }
-
-    }
-
-  }
-
 }
