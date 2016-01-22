@@ -26,7 +26,7 @@ $(document).ready(function() {
     $('#mask').fadeTo("slow",0.8);
     var winH = $(window).height();
     var winW = $(window).width();
-    $(id).css('top',  winH/0.5-$(id).height()/2);
+    $(id).css('top',  winH/0.6-$(id).height()/2);
     $(id).css('left', winW/2-$(id).width()/2);
     $(id).fadeIn(2000);
   });
